@@ -7,6 +7,7 @@ var RequestSchema   = new Schema({
     long:Number,
     time:Date,
     state:Number,
+    message:String,
     ttl:Number
 });
 
