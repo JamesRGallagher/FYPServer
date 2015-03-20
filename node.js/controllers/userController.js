@@ -1,3 +1,4 @@
+//
 var User = require('../models/users');
 
 var outputFilename = 'locations.json'; //A dummy file used to check the location tracking is working.

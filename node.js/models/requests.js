@@ -1,8 +1,9 @@
+//
 var mongoose     = require('mongoose');
 var Schema       = mongoose.Schema;
 var Response = require('../models/responses');
 var RequestSchema   = new Schema({
-    userid: {type: String, required: true},
+    userid: 
     lat:{type: Number, required: true},
     long:{type: Number, required: true},
     time:Date,

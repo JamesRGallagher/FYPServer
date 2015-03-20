@@ -1,3 +1,4 @@
+//
 var mongoose     = require('mongoose'),
 ObjectId = mongoose.Schema.Types.ObjectId,
 PassportLocalStrategy = require('passport-local').Strategy;
